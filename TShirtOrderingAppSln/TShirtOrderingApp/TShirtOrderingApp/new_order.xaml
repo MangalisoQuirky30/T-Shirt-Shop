@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TShirtOrderingApp.new_order">
+
+
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Padding="20" >
+
+            <Frame Margin="0">
+                <Label Text="Fill in the form below to place your order!" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold" FontSize="Medium" />
+            </Frame>
+
+            <Label Text="First and Lastname" TextColor="Black" FontSize="Medium"/>
+            <Entry x:Name="NcustName"  Placeholder="John Doe"  Margin="0 ,0 ,10, 0" ></Entry>
+            <Label Text="Gender" TextColor="Black" FontSize="Medium"/>
+            <Entry x:Name="NcustGender"  Placeholder="Male / Female" Margin="0 ,0 ,10, 0" ></Entry>
+            <Label Text="T-shirt Color" TextColor="Black" FontSize="Medium"/>
+            <Entry x:Name="NtShirtColor"  Placeholder="Red / Green / White" Margin="0 ,0 ,10, 0" ></Entry>
+            <Label Text="T-shirt Size" TextColor="Black" FontSize="Medium"/>
+            <Entry x:Name="NtShirtSize"  Placeholder="XS / S / M / L / XL" Margin="0 ,0 ,10, 0"></Entry>
+            <Label Text="Shipping Address" TextColor="Black" FontSize="Medium"/>
+            <Entry x:Name="NcustShippingAddress"  Placeholder="17th Avenue, Wall Street, New York City" Margin="0 ,0 ,10, 0" ></Entry>
+            <Button x:Name="NplaceOrderBtn" Text="Place Order" Clicked="PlaceOrderBtn_Clicked" FontSize="Medium" FontAttributes="Bold" BorderColor="Black" BackgroundColor="Green" Margin="20" TextColor="White" CornerRadius="20" Padding="20"/>
+        </StackLayout>
+
+    </ScrollView>
+
+
+</ContentPage>

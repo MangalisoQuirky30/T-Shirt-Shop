@@ -1,0 +1,8 @@
+C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtShopLibrary\bin\Debug\netstandard2.0\TShirtShopLibrary.deps.json
+C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtShopLibrary\bin\Debug\netstandard2.0\TShirtShopLibrary.dll
+C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtShopLibrary\obj\Debug\netstandard2.0\TShirtShopLibrary.AssemblyInfoInputs.cache
+C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtShopLibrary\obj\Debug\netstandard2.0\TShirtShopLibrary.AssemblyInfo.cs
+C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtShopLibrary\bin\Debug\netstandard2.0\TShirtShopLibrary.pdb
+C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtShopLibrary\obj\Debug\netstandard2.0\TShirtShopLibrary.dll
+C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtShopLibrary\obj\Debug\netstandard2.0\TShirtShopLibrary.pdb
+C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtShopLibrary\obj\Debug\netstandard2.0\TShirtShopLibrary.csprojAssemblyReference.cache
