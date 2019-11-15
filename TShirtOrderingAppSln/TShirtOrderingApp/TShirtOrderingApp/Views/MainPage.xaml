@@ -5,7 +5,8 @@
             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
             mc:Ignorable="d"
             xmlns:views="clr-namespace:TShirtOrderingApp.Views"
-            x:Class="TShirtOrderingApp.Views.MainPage">
+            x:Class="TShirtOrderingApp.Views.MainPage"
+            BarBackgroundColor="White">
 
 
     <TabbedPage.Children >

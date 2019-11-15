@@ -7,9 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TShirtOrderingApp.Android",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TShirtOrderingApp.iOS", "TShirtOrderingApp\TShirtOrderingApp.iOS\TShirtOrderingApp.iOS.csproj", "{BB0A2BE9-CBF0-491B-91A7-39353441D035}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TShirtOrderingApp", "TShirtOrderingApp\TShirtOrderingApp\TShirtOrderingApp.csproj", "{3C3AA3A5-E747-4D8F-B33C-C6CA33E78702}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TShirtOrderingApp", "TShirtOrderingApp\TShirtOrderingApp\TShirtOrderingApp.csproj", "{3C3AA3A5-E747-4D8F-B33C-C6CA33E78702}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TShirtShopLibrary", "TShirtShopLibrary\TShirtShopLibrary.csproj", "{E2BF6DC5-9AD1-4F7D-89A9-09AB0EDA8A60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TShirtShopLibrary", "TShirtShopLibrary\TShirtShopLibrary.csproj", "{E2BF6DC5-9AD1-4F7D-89A9-09AB0EDA8A60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TShirtAppAPI", "TShirtAppAPI\TShirtAppAPI.csproj", "{AC0E0637-F779-47A7-9347-EEB029208166}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,18 @@ Global
 		{E2BF6DC5-9AD1-4F7D-89A9-09AB0EDA8A60}.Release|iPhone.Build.0 = Release|Any CPU
 		{E2BF6DC5-9AD1-4F7D-89A9-09AB0EDA8A60}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{E2BF6DC5-9AD1-4F7D-89A9-09AB0EDA8A60}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{AC0E0637-F779-47A7-9347-EEB029208166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0E0637-F779-47A7-9347-EEB029208166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0E0637-F779-47A7-9347-EEB029208166}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{AC0E0637-F779-47A7-9347-EEB029208166}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{AC0E0637-F779-47A7-9347-EEB029208166}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{AC0E0637-F779-47A7-9347-EEB029208166}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{AC0E0637-F779-47A7-9347-EEB029208166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0E0637-F779-47A7-9347-EEB029208166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC0E0637-F779-47A7-9347-EEB029208166}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{AC0E0637-F779-47A7-9347-EEB029208166}.Release|iPhone.Build.0 = Release|Any CPU
+		{AC0E0637-F779-47A7-9347-EEB029208166}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{AC0E0637-F779-47A7-9347-EEB029208166}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

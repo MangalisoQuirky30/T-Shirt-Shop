@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TShirtOrderingApp.Views.EditOrder">
+
+    <ScrollView>
+
+                    <StackLayout Orientation="Vertical" Padding="20" >
+
+                        <Frame Margin="0 ,0 ,20 ,0">
+                            <Label Text="Edit, Delete or Post" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold" FontSize="Medium" />
+                        </Frame>
+
+                        <Label Text="First and Lastname" TextColor="Black" FontSize="Medium"/>
+                        <Entry x:Name="e_custName" Text="{Binding Name}"  Placeholder="John Doe"  Margin="0 ,0 ,10, 0" ></Entry>
+
+                        <Label Text="Gender" TextColor="Black" FontSize="Medium"/>
+                        <Entry x:Name="e_custGender"  Placeholder="Male / Female" Margin="0 ,0 ,10, 0" ></Entry>
+
+                        <Label Text="T-shirt Color" TextColor="Black" FontSize="Medium"/>
+                        <Entry x:Name="e_tShirtColor"  Placeholder="Red / Green /  White " Margin="0 ,0 ,10, 0" ></Entry>
+
+                        <Label Text="T-shirt Size" TextColor="Black" FontSize="Medium"/>
+                        <Entry x:Name="e_tShirtSize"  Placeholder="XS / S / M / L / XL" Margin="0 ,0 ,10, 0"></Entry>
+
+                        <Label Text="Shipping Address" TextColor="Black" FontSize="Medium"/>
+                        <Entry x:Name="e_custShippingAddress"  Placeholder="17th Avenue, Wall Street, New York City" Margin="0 ,0 ,10, 0" ></Entry>
+
+                        <StackLayout>
+                            <FlexLayout JustifyContent="SpaceBetween" Margin="0 0 20 0">
+                                <Button x:Name="e_updateOrderBtn" Text="Update Order" FontSize="Medium" FontAttributes="Bold" BackgroundColor="Green" TextColor="White" WidthRequest="170" CornerRadius="10" Padding="10" />
+                                <Button x:Name="e_deleteOrderBtn" Text="Delete" FontSize="Medium" FontAttributes="Bold" BackgroundColor="Red" TextColor="White" WidthRequest="170" CornerRadius="10" Padding="10"/>
+
+                            </FlexLayout>
+                <FlexLayout JustifyContent="SpaceBetween">
+                                <Button x:Name="e_postApiOrderBtn" Text="Post" FontSize="Medium" FontAttributes="Bold" BackgroundColor="Blue" TextColor="White" 
+                                        WidthRequest="170" CornerRadius="10" Padding="10" />
+
+                    <StackLayout Orientation="Horizontal"  WidthRequest="170">
+                        <Label Text="Delivered?" VerticalOptions="Center" FontSize="20" TextColor="black"/>
+                        <CheckBox CheckedChanged="CheckBox_CheckedChanged" VerticalOptions="Center" Color="black"/>
+                    </StackLayout>
+                               
+
+                            </FlexLayout>
+                        </StackLayout>
+
+
+                    </StackLayout>
+    </ScrollView>
+
+</ContentPage>

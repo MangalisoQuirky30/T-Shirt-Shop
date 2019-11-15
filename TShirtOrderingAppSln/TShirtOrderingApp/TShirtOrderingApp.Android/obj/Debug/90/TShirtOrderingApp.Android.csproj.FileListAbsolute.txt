@@ -548,3 +548,5 @@ C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingAp
 C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp.Android\obj\Debug\90\res\drawable\cart.png
 C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp.Android\obj\Debug\90\res\drawable\tshirts.png
 C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp.Android\obj\Debug\90\res\drawable\gucci.png
+C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp.Android\obj\Debug\90\linksrc\Newtonsoft.Json.dll
+C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll

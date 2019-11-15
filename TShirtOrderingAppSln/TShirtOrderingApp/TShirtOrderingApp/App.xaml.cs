@@ -20,6 +20,8 @@ namespace TShirtOrderingApp
         }
 
 
+
+
         private static TShirtOrders database;
 
         public static TShirtOrders Database
@@ -34,6 +36,10 @@ namespace TShirtOrderingApp
                 return database;
             }
         }
+
+
+
+
         protected override void OnStart()
         {
             // Handle when your app starts

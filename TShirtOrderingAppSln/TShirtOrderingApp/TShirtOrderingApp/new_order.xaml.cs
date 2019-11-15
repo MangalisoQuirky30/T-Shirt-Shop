@@ -34,6 +34,10 @@ namespace TShirtOrderingApp
             {
                 order.ImgSrc = "red.jpg";
             }
+            if (NtShirtColor.Text.ToLower() == "black")
+            {
+                order.ImgSrc = "black.jpg";
+            }
 
             if (NtShirtColor.Text.ToLower() == "green")
             {
@@ -44,6 +48,9 @@ namespace TShirtOrderingApp
             if (NtShirtColor.Text.ToLower() == "white")
             {
                 order.ImgSrc = "white.jpg";
+            } else
+            {
+                order.ImgSrc = "black.jpg";
             }
 
 

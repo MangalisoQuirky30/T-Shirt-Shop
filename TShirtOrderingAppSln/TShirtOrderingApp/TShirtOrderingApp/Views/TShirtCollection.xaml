@@ -15,7 +15,7 @@
     <ScrollView>
 
         <StackLayout Orientation="Vertical">
-            <Image Source="gucci.png" HeightRequest="150"/>
+            <Image Source="gucci.png" HeightRequest="50"/>
             <FlexLayout JustifyContent="SpaceBetween" HeightRequest="200">
                 <Image Source="greenmodel.jpg"/>
 
@@ -29,6 +29,11 @@
                 <Image Source="whitemodel.jpg"/>
 
                 <Image Source="white.jpg"/>
+            </FlexLayout>
+            <FlexLayout JustifyContent="SpaceBetween" HeightRequest="200">
+                <Image Source="black.jpg"/>
+
+                <Image Source="blackmodel.jpg"/>
             </FlexLayout>
 
 

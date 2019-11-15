@@ -9,8 +9,6 @@ C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingAp
 C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp\bin\Debug\netstandard2.0\TShirtOrderingApp.pdb
 C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp\bin\Debug\netstandard2.0\TShirtShopLibrary.dll
 C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp\bin\Debug\netstandard2.0\TShirtShopLibrary.pdb
-C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp\obj\Debug\netstandard2.0\Views\NewOrder.xaml.g.cs
-C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp\obj\Debug\netstandard2.0\TShirtOrderingApp.csproj.CopyComplete
 C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp\obj\Debug\netstandard2.0\TShirtOrderingApp.dll
 C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp\obj\Debug\netstandard2.0\ref\TShirtOrderingApp.dll
@@ -18,3 +16,5 @@ C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingAp
 C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp\obj\Debug\netstandard2.0\Views\TShirtCollection.xaml.g.cs
 C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp\obj\Debug\netstandard2.0\Views\AllOrders.xaml.g.cs
 C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp\obj\Debug\netstandard2.0\new_order.xaml.g.cs
+C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp\obj\Debug\netstandard2.0\Views\EditOrder.xaml.g.cs
+C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp\obj\Debug\netstandard2.0\XamlC.stamp

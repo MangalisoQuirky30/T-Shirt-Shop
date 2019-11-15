@@ -15,7 +15,7 @@
     <ListView x:Name="itemListView"
               ItemsSource="{Binding TshirtOrders}" 
               HasUnevenRows="True"
-              ItemTapped="itemListView_ItemTapped">
+              ItemSelected="itemListView_ItemSelected">
         <ListView.ItemTemplate>
             <DataTemplate>
 
@@ -27,6 +27,7 @@
                                     <Label Text="{Binding Name}" FontAttributes="Bold" TextColor="Black"/>
                                     <Label Text="{Binding Gender}" />
                                     <Label Text="{Binding ShippingAddress}" />
+
                                 </StackLayout>
                                 <StackLayout WidthRequest="50">
                                     <Label Text="{Binding Color}"  FontAttributes="Bold" TextColor="{Binding Color}" />
@@ -36,6 +37,7 @@
                                 </StackLayout>
                                 <StackLayout WidthRequest="100">
                                     <Image Source="{Binding ImgSrc}"/>
+                                    <Button Text="post" Clicked="Button_Clicked" HeightRequest="35" WidthRequest="40" BackgroundColor="White" BorderColor="Black" BorderWidth="1"></Button>
                                 </StackLayout>
                             </FlexLayout>
                         </StackLayout>

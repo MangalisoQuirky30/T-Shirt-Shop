@@ -20,7 +20,7 @@
             <Label Text="Gender" TextColor="Black" FontSize="Medium"/>
             <Entry x:Name="NcustGender"  Placeholder="Male / Female" Margin="0 ,0 ,10, 0" ></Entry>
             <Label Text="T-shirt Color" TextColor="Black" FontSize="Medium"/>
-            <Entry x:Name="NtShirtColor"  Placeholder="Red / Green / White" Margin="0 ,0 ,10, 0" ></Entry>
+            <Entry x:Name="NtShirtColor"  Placeholder="Red / Green / White / Black" Margin="0 ,0 ,10, 0" ></Entry>
             <Label Text="T-shirt Size" TextColor="Black" FontSize="Medium"/>
             <Entry x:Name="NtShirtSize"  Placeholder="XS / S / M / L / XL" Margin="0 ,0 ,10, 0"></Entry>
             <Label Text="Shipping Address" TextColor="Black" FontSize="Medium"/>
