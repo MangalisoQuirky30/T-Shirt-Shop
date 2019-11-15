@@ -12,7 +12,8 @@ namespace TShirtShopLibrary
         public string Color { get; set; }
         public string Size { get; set; }
         public string ImgSrc { get; set; }
-        
+
+        public bool Status { get; set; }
 
         public string ShippingAddress { get; set; }
         [PrimaryKey, AutoIncrement]

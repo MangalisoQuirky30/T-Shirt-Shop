@@ -67,31 +67,15 @@ namespace TShirtOrderingApp.Views
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
-            var info = App.Database;
-            
+            var allOrders = App.Database;
+            TshirtOrders = await allOrders.GetTShirtOrders();
+            var OrdersToPost = TshirtOrders.Select(x => new TShirtOrder() { ImgSrc = x.ImgSrc , Color = x.Color , Gender = x.Gender , Name = x.Name , ShippingAddress = x.ShippingAddress , Size = x.Size});
             HttpClient client = new HttpClient();
-
-            var torder = new TShirtOrder()
-            {
-                Name = "Mangaliso",
-                ShippingAddress = "wynberg",
-            };
-
-            var json = JsonConvert.SerializeObject(torder);
+            var json = JsonConvert.SerializeObject(OrdersToPost);
             var content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
-
-          
-
-            try
-            {
-                var response = await client.PostAsync("https://10.0.2.2:5001/tshirtorders", content);
-                await DisplayAlert("Exception", response.ReasonPhrase , "Ok");
-            }
-            catch(Exception ex)
-            {
-
-                await DisplayAlert("Exception", ex.Message, "Ok");
-            }
+            var response = await client.PostAsync("http://10.0.2.2:5000/tshirtorders", content);
+            await DisplayAlert("Exception", response.ReasonPhrase , "cool");
         }
     }
 }
+

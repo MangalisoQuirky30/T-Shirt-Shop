@@ -63,3 +63,4 @@ C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingAp
 C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp.iOS\obj\iPhoneSimulator\Debug\TShirtOrderingApp.iOS.csproj.CopyComplete
 C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp.iOS\obj\iPhoneSimulator\Debug\TShirtOrderingApp.iOS.exe
 C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp.iOS\obj\iPhoneSimulator\Debug\TShirtOrderingApp.iOS.pdb
+C:\xam__git\T-Shirt-Shop\TShirtOrderingAppSln\TShirtOrderingApp\TShirtOrderingApp.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll

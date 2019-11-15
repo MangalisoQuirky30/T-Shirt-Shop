@@ -42,14 +42,16 @@ namespace ContosoPets.Api.Controllers
         [HttpPost]
         public async Task<ActionResult<TShirtOrder>> Create(TShirtOrder[] orders)
         {
-            ///////////////////////////////////////////////////////////////////////////////////////// here 
             foreach (var order in orders)
             {
-                _context.TShirtOrders.Add(order);
-                await _context.SaveChangesAsync();
+                if(order.Status == false)
+                {
+                    _context.TShirtOrders.Add(order);
+                    await _context.SaveChangesAsync();
+                    order.Status = true;
+                }
             }
-
-            return CreatedAtAction(nameof(GetById), new { id = order.OrderId }, order);
+            return Ok();
         }
 
         // PUT action

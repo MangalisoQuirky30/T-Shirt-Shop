@@ -27,7 +27,8 @@ namespace TShirtOrderingApp
                 Gender = NcustGender.Text.ToUpper(),
                 Color = NtShirtColor.Text.ToUpper(),
                 Size = NtShirtSize.Text.ToUpper(),
-                ShippingAddress = NcustShippingAddress.Text.ToUpper()
+                ShippingAddress = NcustShippingAddress.Text.ToUpper(),
+                Status = false ,
             };
 
             if (NtShirtColor.Text.ToLower() == "red")
@@ -44,7 +45,6 @@ namespace TShirtOrderingApp
                 order.ImgSrc = "green.jpg";
             }
 
-
             if (NtShirtColor.Text.ToLower() == "white")
             {
                 order.ImgSrc = "white.jpg";
@@ -52,8 +52,6 @@ namespace TShirtOrderingApp
             {
                 order.ImgSrc = "black.jpg";
             }
-
-
 
             var orders = App.Database;
             await orders.InsertTShirtOrder(order);
@@ -63,7 +61,6 @@ namespace TShirtOrderingApp
             NtShirtColor.Text = "";
             NcustShippingAddress.Text = "";
             NtShirtSize.Text = "";
-
 
             await Navigation.PushAsync(new AllOrders());
 

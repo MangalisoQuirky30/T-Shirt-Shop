@@ -30,7 +30,7 @@
                         <Entry x:Name="e_custShippingAddress"  Placeholder="17th Avenue, Wall Street, New York City" Margin="0 ,0 ,10, 0" ></Entry>
 
                         <StackLayout>
-                            <FlexLayout JustifyContent="SpaceBetween" Margin="0 0 20 0">
+                            <FlexLayout JustifyContent="SpaceBetween" Margin="0, 0, 20, 0">
                                 <Button x:Name="e_updateOrderBtn" Text="Update Order" FontSize="Medium" FontAttributes="Bold" BackgroundColor="Green" TextColor="White" WidthRequest="170" CornerRadius="10" Padding="10" />
                                 <Button x:Name="e_deleteOrderBtn" Text="Delete" FontSize="Medium" FontAttributes="Bold" BackgroundColor="Red" TextColor="White" WidthRequest="170" CornerRadius="10" Padding="10"/>
 
